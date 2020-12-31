@@ -1,9 +1,9 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end('Hello World\n');
+  res.end('Blow me World!\n');
 });
 
-server.listen(4242, () => {
-  console.log('Server is running...');
+server.listen(4000, () => {
+  console.log('Server is running doosh bag...');
 });
